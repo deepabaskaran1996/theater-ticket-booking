@@ -1,5 +1,5 @@
-const User = require('../model/rolemodel')
-const {SECRET} = require('../model/app')
+const User = require('../models/rolemodel')
+const {SECRET} = require('../models/app')
 var {Strategy,ExtractJwt} = require('passport-jwt')
 const passport = require('passport')
 
